@@ -1,11 +1,14 @@
-function checkPassword(password) {
-  const correctPassword===password ?
-    return "Access granted" :
-    return "Access denied, wrong password!";
+let sum = 0;
+
+function getElementWidth(content, padding, border) {
+  sum =
+    Number.parseInt(content) +
+    Number.parseInt(padding) * 2 +
+    Number.parseInt(border) * 2;
+
+  return sum;
 }
 
 console.log(getElementWidth('50px', '8px', '4px')); // 74
 console.log(getElementWidth('60px', '12px', '8.5px')); // 101
 console.log(getElementWidth('200px', '0px', '0px')); // 200
-
-
